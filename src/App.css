@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+  background-color:#f8fafc;
+  background-image: url('./images/Background\ Pattern.png');
+  background-size:cover;
+  width: 100wh;
+ 
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.container{
+  width: 444px;
+  height: 454px;
+  margin: 60px auto;
+  border: 2px solid #61dafb;
+  background-color: #FFFFFF;
+  /* box-shadow: 2px 2px 2px 10px #f8fafc;; */
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+
+}
+.p1{
+margin-left: 38px;
+font-size: 20px;
+margin-top: 20px;
+  
+}
+
+h2{
+  margin-left: 38px;
+}
+#input1{
+  width: 352px;
+  height: 33px;
+  margin: 10px auto;
+}
+
+#input2{
+  width: 352px;
+  height: 33px;
+  margin: 10px auto;
+}
+label{
+  margin-left: 43px;
+}
+
+#btn{
+  width: 359px;
+  height: 33px;
+
+  margin: 30px auto;
+  background-color: #61dafb;
+}
+
+#pp{
+  text-align: center;
+  color: blue;
+  margin-top: -1px;
+}
+#pr{
+  text-align: center;
+  margin-top: 50px;
+}
+#pr > span{
+  color:blue
+}
